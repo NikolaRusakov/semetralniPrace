@@ -19,10 +19,6 @@ class Menu : AppCompatActivity() {
             val changeActivity = Intent(this, multiplayerActivity::class.java)
             startActivity(changeActivity)
         })
-        textView3.setOnClickListener({
-            val changeActivity = Intent(this, leaderboardActivity::class.java)
-            startActivity(changeActivity)
-        })
         textView4.setOnClickListener {
             exitProcess(0)
         }
